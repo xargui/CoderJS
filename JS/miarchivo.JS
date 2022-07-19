@@ -67,14 +67,3 @@ console.log("El valor final del viajes es de: " + (resultado[0].precioAdulto *ca
 /* Probando GIT
  */
 
-
-
-
-
-
-
-
-
-
-
-
