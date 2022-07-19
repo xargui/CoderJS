@@ -62,10 +62,10 @@ const resultado2 = reserva.filter((el) => el.mes.includes(mes));
 
 console.log(resultado2);
 
-/* console.log("El valor final del viajes es de: " + (resultado[0].precioAdulto *cantPasajeros));
+console.log("El valor final del viajes es de: " + (resultado[0].precioAdulto *cantPasajeros));
 
-Probando GIT */
-
+/* Probando GIT
+ */
 
 
 
