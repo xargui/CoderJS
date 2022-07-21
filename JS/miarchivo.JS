@@ -56,7 +56,7 @@ if (cantViajeros > 0){
        
         //Cantidad de Adultos y Menores
         
-         if(pasajero.esMayorDeEdad=true){
+         if(pasajero.esMayorDeEdad()==true){
             cantAdultos= cantAdultos + 1;
         }else{
             cantMenores= cantMenores + 1;
@@ -95,6 +95,6 @@ console.log(mesDeViaje);
 
 
 //Precio Final
-const precioFinal = (mesDeViaje[0].valor * cantAdultos) + (mesDeViaje[0].valor *cantMenores);
+const precioFinal = parseInt((mesDeViaje[0].valorMayorDeEdad() * cantAdultos) + (mesDeViaje[0].valorMenorDeEdad() *cantMenores));
 
 console.log("El precio final de su viaje es de: " + precioFinal);
